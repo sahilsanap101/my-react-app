@@ -1,11 +1,7 @@
-import UserGreeting from './UserGreeting.jsx'
+import StopWatch from "./StopWatch.jsx";
 
 function App() {
-    return(
-        <>
-            <UserGreeting isLoggedIn={false} username="SAHIL SANAP"/>
-        </>
-    );
+  return (<StopWatch/>);
 }
 
-export default App
+export default App;
